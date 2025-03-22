@@ -1,7 +1,7 @@
 package DigitalBank;
 
 public class ClientBank {
-    public String name;
+    private String name;
 
     public String getName() {
         return name;
@@ -9,5 +9,4 @@ public class ClientBank {
     public void setName(String name) {
         this.name = name;
     }
-    
 }
